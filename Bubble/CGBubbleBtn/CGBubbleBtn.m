@@ -17,6 +17,12 @@
     // Drawing code
 }
 */
+-(instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    [self setUI];
+    return self;
+}
 -(instancetype)initWithFrame:(CGRect)frame withImage:(UIImage *)image
 {
     self = [super initWithFrame:frame];
